@@ -1,0 +1,5 @@
+module CPBRendererLibs [system] {
+    header "PBRendererCLibs/PBRendererCLibs.h"
+    link "PBRendererCLibs"
+    export *
+}
