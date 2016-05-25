@@ -640,12 +640,9 @@ CIMGUI_API ImGuiID igGetIdPtr(CONST void* ptr_id)
 }
 
 // Widgets
-CIMGUI_API void igText(CONST char* fmt, ...)
+CIMGUI_API void igText(CONST char* fmt)
 {
-    va_list args;
-    va_start(args, fmt);
-    ImGui::TextV(fmt,args);
-    va_end(args);
+    ImGui::Text(fmt);
 }
 
 CIMGUI_API void igTextV(CONST char* fmt, va_list args)

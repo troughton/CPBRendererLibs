@@ -159,7 +159,7 @@ CIMGUI_API ImGuiID          igGetIdStrRange(CONST char* str_begin,CONST char* st
 CIMGUI_API ImGuiID          igGetIdPtr(CONST void* ptr_id);
 
 // Widgets
-CIMGUI_API void             igText(CONST char* fmt, ...);
+CIMGUI_API void             igText(CONST char* text);
 CIMGUI_API void             igTextV(CONST char* fmt, va_list args);
 CIMGUI_API void             igTextColored(CONST struct ImVec4 col, CONST char* fmt, ...);
 CIMGUI_API void             igTextColoredV(CONST struct ImVec4 col, CONST char* fmt, va_list args);
