@@ -15,19 +15,17 @@ UNAME_S := $(shell uname -s)
 ifeq ($(UNAME_S), Linux) #LINUX
 	ECHO_MESSAGE = "Linux"
 
-	OUTPUTNAME = libPBRendererCLibs.so
+	OUTPUTNAME = libPBRendererCLibs.a
 	CXXFLAGS = -Wall
-	CXXFLAGS += -shared -fPIC
 	CFLAGS = $(CXXFLAGS)
 endif
 
 ifeq ($(UNAME_S), Darwin) #APPLE
 	ECHO_MESSAGE = "Mac OS X"
 
-	OUTPUTNAME = libPBRendererCLibs.dylib
+	OUTPUTNAME = libPBRendererCLibs.a
 	CXXFLAGS = -I/usr/local/include
 	CXXFLAGS += -Wall
-	LINKFLAGS = -dynamiclib
 	CFLAGS = $(CXXFLAGS)
 endif
 
@@ -38,7 +36,7 @@ all:PBRendererCLibs
 	@echo Build complete for $(ECHO_MESSAGE)
 
 PBRendererCLibs:$(OBJS)
-	$(CXX) -o $(OUTPUTNAME) $(OBJS) $(CXXFLAGS) $(LINKFLAGS)
+	ar rcs $(OUTPUTNAME) $(OBJS)
 
 clean:
 	rm $(OBJS)
