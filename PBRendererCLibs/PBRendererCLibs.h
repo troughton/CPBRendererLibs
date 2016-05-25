@@ -12,4 +12,7 @@
 #define STB_IMAGE_IMPLEMENTATION
 #include "stb_image.h"
 
+#include "ImGuiCInclude.h"
+#include "cimgui/cimgui.h"
+
 #endif /* PBRendererCLibs_h */
