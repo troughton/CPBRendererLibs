@@ -21,8 +21,25 @@
 		E94DCD801CF523A20055BBDB /* stb_rect_pack.h in Headers */ = {isa = PBXBuildFile; fileRef = E94DCD6F1CF523A20055BBDB /* stb_rect_pack.h */; };
 		E94DCD811CF523A20055BBDB /* stb_textedit.h in Headers */ = {isa = PBXBuildFile; fileRef = E94DCD701CF523A20055BBDB /* stb_textedit.h */; };
 		E94DCD821CF523A20055BBDB /* stb_truetype.h in Headers */ = {isa = PBXBuildFile; fileRef = E94DCD711CF523A20055BBDB /* stb_truetype.h */; };
+		E96A88501CFFCE2B0063DD59 /* etc1_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = E96A883C1CFFCE2B0063DD59 /* etc1_utils.c */; };
+		E96A88511CFFCE2B0063DD59 /* etc1_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = E96A883D1CFFCE2B0063DD59 /* etc1_utils.h */; };
+		E96A88521CFFCE2B0063DD59 /* image_DXT.c in Sources */ = {isa = PBXBuildFile; fileRef = E96A883E1CFFCE2B0063DD59 /* image_DXT.c */; };
+		E96A88531CFFCE2B0063DD59 /* image_DXT.h in Headers */ = {isa = PBXBuildFile; fileRef = E96A883F1CFFCE2B0063DD59 /* image_DXT.h */; };
+		E96A88541CFFCE2B0063DD59 /* image_helper.c in Sources */ = {isa = PBXBuildFile; fileRef = E96A88401CFFCE2B0063DD59 /* image_helper.c */; };
+		E96A88551CFFCE2B0063DD59 /* image_helper.h in Headers */ = {isa = PBXBuildFile; fileRef = E96A88411CFFCE2B0063DD59 /* image_helper.h */; };
+		E96A88561CFFCE2B0063DD59 /* pkm_helper.h in Headers */ = {isa = PBXBuildFile; fileRef = E96A88421CFFCE2B0063DD59 /* pkm_helper.h */; };
+		E96A88571CFFCE2B0063DD59 /* pvr_helper.h in Headers */ = {isa = PBXBuildFile; fileRef = E96A88431CFFCE2B0063DD59 /* pvr_helper.h */; };
+		E96A885A1CFFCE2B0063DD59 /* stb_image.h in Headers */ = {isa = PBXBuildFile; fileRef = E96A88461CFFCE2B0063DD59 /* stb_image.h */; };
+		E96A885B1CFFCE2B0063DD59 /* stb_image_write.h in Headers */ = {isa = PBXBuildFile; fileRef = E96A88471CFFCE2B0063DD59 /* stb_image_write.h */; };
+		E96A885C1CFFCE2B0063DD59 /* stbi_DDS.h in Headers */ = {isa = PBXBuildFile; fileRef = E96A88481CFFCE2B0063DD59 /* stbi_DDS.h */; };
+		E96A885D1CFFCE2B0063DD59 /* stbi_DDS_c.h in Headers */ = {isa = PBXBuildFile; fileRef = E96A88491CFFCE2B0063DD59 /* stbi_DDS_c.h */; };
+		E96A885E1CFFCE2B0063DD59 /* stbi_ext.h in Headers */ = {isa = PBXBuildFile; fileRef = E96A884A1CFFCE2B0063DD59 /* stbi_ext.h */; };
+		E96A885F1CFFCE2B0063DD59 /* stbi_ext_c.h in Headers */ = {isa = PBXBuildFile; fileRef = E96A884B1CFFCE2B0063DD59 /* stbi_ext_c.h */; };
+		E96A88601CFFCE2B0063DD59 /* stbi_pkm.h in Headers */ = {isa = PBXBuildFile; fileRef = E96A884C1CFFCE2B0063DD59 /* stbi_pkm.h */; };
+		E96A88611CFFCE2B0063DD59 /* stbi_pkm_c.h in Headers */ = {isa = PBXBuildFile; fileRef = E96A884D1CFFCE2B0063DD59 /* stbi_pkm_c.h */; };
+		E96A88621CFFCE2B0063DD59 /* stbi_pvr.h in Headers */ = {isa = PBXBuildFile; fileRef = E96A884E1CFFCE2B0063DD59 /* stbi_pvr.h */; };
+		E96A88631CFFCE2B0063DD59 /* stbi_pvr_c.h in Headers */ = {isa = PBXBuildFile; fileRef = E96A884F1CFFCE2B0063DD59 /* stbi_pvr_c.h */; };
 		E9DF4D881CED3A08009F53AE /* Implementation.c in Sources */ = {isa = PBXBuildFile; fileRef = E9DF4D871CED3A08009F53AE /* Implementation.c */; };
-		E9DF4D8A1CED3A11009F53AE /* stb_image.h in Headers */ = {isa = PBXBuildFile; fileRef = E9DF4D891CED3A11009F53AE /* stb_image.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,10 +66,27 @@
 		E94DCD6F1CF523A20055BBDB /* stb_rect_pack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_rect_pack.h; sourceTree = "<group>"; };
 		E94DCD701CF523A20055BBDB /* stb_textedit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_textedit.h; sourceTree = "<group>"; };
 		E94DCD711CF523A20055BBDB /* stb_truetype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_truetype.h; sourceTree = "<group>"; };
+		E96A883C1CFFCE2B0063DD59 /* etc1_utils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = etc1_utils.c; sourceTree = "<group>"; };
+		E96A883D1CFFCE2B0063DD59 /* etc1_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = etc1_utils.h; sourceTree = "<group>"; };
+		E96A883E1CFFCE2B0063DD59 /* image_DXT.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = image_DXT.c; sourceTree = "<group>"; };
+		E96A883F1CFFCE2B0063DD59 /* image_DXT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = image_DXT.h; sourceTree = "<group>"; };
+		E96A88401CFFCE2B0063DD59 /* image_helper.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = image_helper.c; sourceTree = "<group>"; };
+		E96A88411CFFCE2B0063DD59 /* image_helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = image_helper.h; sourceTree = "<group>"; };
+		E96A88421CFFCE2B0063DD59 /* pkm_helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pkm_helper.h; sourceTree = "<group>"; };
+		E96A88431CFFCE2B0063DD59 /* pvr_helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pvr_helper.h; sourceTree = "<group>"; };
+		E96A88461CFFCE2B0063DD59 /* stb_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_image.h; sourceTree = "<group>"; };
+		E96A88471CFFCE2B0063DD59 /* stb_image_write.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_image_write.h; sourceTree = "<group>"; };
+		E96A88481CFFCE2B0063DD59 /* stbi_DDS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stbi_DDS.h; sourceTree = "<group>"; };
+		E96A88491CFFCE2B0063DD59 /* stbi_DDS_c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stbi_DDS_c.h; sourceTree = "<group>"; };
+		E96A884A1CFFCE2B0063DD59 /* stbi_ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stbi_ext.h; sourceTree = "<group>"; };
+		E96A884B1CFFCE2B0063DD59 /* stbi_ext_c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stbi_ext_c.h; sourceTree = "<group>"; };
+		E96A884C1CFFCE2B0063DD59 /* stbi_pkm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stbi_pkm.h; sourceTree = "<group>"; };
+		E96A884D1CFFCE2B0063DD59 /* stbi_pkm_c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stbi_pkm_c.h; sourceTree = "<group>"; };
+		E96A884E1CFFCE2B0063DD59 /* stbi_pvr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stbi_pvr.h; sourceTree = "<group>"; };
+		E96A884F1CFFCE2B0063DD59 /* stbi_pvr_c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stbi_pvr_c.h; sourceTree = "<group>"; };
 		E99A97091CF4FF2700A21A52 /* ImGuiCInclude.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImGuiCInclude.h; sourceTree = "<group>"; };
 		E9DF4D791CED39BD009F53AE /* libPBRendererCLibs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPBRendererCLibs.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9DF4D871CED3A08009F53AE /* Implementation.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Implementation.c; sourceTree = "<group>"; };
-		E9DF4D891CED3A11009F53AE /* stb_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_image.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +144,31 @@
 			path = extra_fonts;
 			sourceTree = "<group>";
 		};
+		E96A883B1CFFCE2B0063DD59 /* SOIL2 */ = {
+			isa = PBXGroup;
+			children = (
+				E96A883C1CFFCE2B0063DD59 /* etc1_utils.c */,
+				E96A883D1CFFCE2B0063DD59 /* etc1_utils.h */,
+				E96A883E1CFFCE2B0063DD59 /* image_DXT.c */,
+				E96A883F1CFFCE2B0063DD59 /* image_DXT.h */,
+				E96A88401CFFCE2B0063DD59 /* image_helper.c */,
+				E96A88411CFFCE2B0063DD59 /* image_helper.h */,
+				E96A88421CFFCE2B0063DD59 /* pkm_helper.h */,
+				E96A88431CFFCE2B0063DD59 /* pvr_helper.h */,
+				E96A88461CFFCE2B0063DD59 /* stb_image.h */,
+				E96A88471CFFCE2B0063DD59 /* stb_image_write.h */,
+				E96A88481CFFCE2B0063DD59 /* stbi_DDS.h */,
+				E96A88491CFFCE2B0063DD59 /* stbi_DDS_c.h */,
+				E96A884A1CFFCE2B0063DD59 /* stbi_ext.h */,
+				E96A884B1CFFCE2B0063DD59 /* stbi_ext_c.h */,
+				E96A884C1CFFCE2B0063DD59 /* stbi_pkm.h */,
+				E96A884D1CFFCE2B0063DD59 /* stbi_pkm_c.h */,
+				E96A884E1CFFCE2B0063DD59 /* stbi_pvr.h */,
+				E96A884F1CFFCE2B0063DD59 /* stbi_pvr_c.h */,
+			);
+			path = SOIL2;
+			sourceTree = "<group>";
+		};
 		E9DF4D701CED39BD009F53AE = {
 			isa = PBXGroup;
 			children = (
@@ -129,9 +188,9 @@
 		E9DF4D861CED39C6009F53AE /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				E96A883B1CFFCE2B0063DD59 /* SOIL2 */,
 				E94DCD541CF523A20055BBDB /* cimgui */,
 				E94DCD5E1CF523A20055BBDB /* imgui */,
-				E9DF4D891CED3A11009F53AE /* stb_image.h */,
 				E9DF4D871CED3A08009F53AE /* Implementation.c */,
 				E946C78B1CED3AA100809A8B /* PBRendererCLibs.h */,
 				E99A97091CF4FF2700A21A52 /* ImGuiCInclude.h */,
@@ -147,13 +206,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				E94DCD7B1CF523A20055BBDB /* imgui.h in Headers */,
+				E96A88621CFFCE2B0063DD59 /* stbi_pvr.h in Headers */,
+				E96A885B1CFFCE2B0063DD59 /* stb_image_write.h in Headers */,
+				E96A885A1CFFCE2B0063DD59 /* stb_image.h in Headers */,
+				E96A88571CFFCE2B0063DD59 /* pvr_helper.h in Headers */,
 				E94DCD801CF523A20055BBDB /* stb_rect_pack.h in Headers */,
+				E96A88611CFFCE2B0063DD59 /* stbi_pkm_c.h in Headers */,
+				E96A88551CFFCE2B0063DD59 /* image_helper.h in Headers */,
+				E96A885F1CFFCE2B0063DD59 /* stbi_ext_c.h in Headers */,
 				E94DCD731CF523A20055BBDB /* cimgui.h in Headers */,
+				E96A88601CFFCE2B0063DD59 /* stbi_pkm.h in Headers */,
 				E94DCD811CF523A20055BBDB /* stb_textedit.h in Headers */,
+				E96A88561CFFCE2B0063DD59 /* pkm_helper.h in Headers */,
+				E96A88631CFFCE2B0063DD59 /* stbi_pvr_c.h in Headers */,
 				E94DCD791CF523A20055BBDB /* imconfig.h in Headers */,
-				E9DF4D8A1CED3A11009F53AE /* stb_image.h in Headers */,
 				E94DCD821CF523A20055BBDB /* stb_truetype.h in Headers */,
+				E96A885D1CFFCE2B0063DD59 /* stbi_DDS_c.h in Headers */,
+				E96A885C1CFFCE2B0063DD59 /* stbi_DDS.h in Headers */,
+				E96A885E1CFFCE2B0063DD59 /* stbi_ext.h in Headers */,
 				E94DCD7E1CF523A20055BBDB /* imgui_internal.h in Headers */,
+				E96A88511CFFCE2B0063DD59 /* etc1_utils.h in Headers */,
+				E96A88531CFFCE2B0063DD59 /* image_DXT.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,10 +286,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E96A88541CFFCE2B0063DD59 /* image_helper.c in Sources */,
 				E94DCD741CF523A20055BBDB /* drawList.cpp in Sources */,
 				E94DCD7D1CF523A20055BBDB /* imgui_draw.cpp in Sources */,
 				E9DF4D881CED3A08009F53AE /* Implementation.c in Sources */,
 				E94DCD7A1CF523A20055BBDB /* imgui.cpp in Sources */,
+				E96A88521CFFCE2B0063DD59 /* image_DXT.c in Sources */,
+				E96A88501CFFCE2B0063DD59 /* etc1_utils.c in Sources */,
 				E94DCD751CF523A20055BBDB /* fontAtlas.cpp in Sources */,
 				E94DCD721CF523A20055BBDB /* cimgui.cpp in Sources */,
 				E94DCD7F1CF523A20055BBDB /* README.md in Sources */,

@@ -9,6 +9,10 @@ OBJS += cimgui/drawList.o
 OBJS += imgui/imgui.o
 OBJS += imgui/imgui_draw.o
 OBJS += imgui/imgui_demo.o
+OBJS += SOIL2/etc1_utils.c
+OBJS += SOIL2/image_DXT.c
+OBJS += SOIL2/image_helper.c
+
 
 UNAME_S := $(shell uname -s)
 
